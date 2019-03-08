@@ -44,7 +44,7 @@ export default class Backdrop extends React.Component {
     const ctx = canvas.getContext('2d')
     const { screenshots } = this.props
 
-    ctx.fillStyle = '#1945EA'
+    ctx.fillStyle = '#1652F0'
     ctx.fillRect(0, 0, canvas.width, canvas.height)
 
     // Layout the screenshots
